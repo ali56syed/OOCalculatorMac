@@ -13,6 +13,8 @@ namespace OOCalculatorMac
             if (inputSwitch == "Y" || inputSwitch == "y")
             {
                 Start.Calculate();
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
                 return;
             }
             if (inputSwitch == "N" || inputSwitch == "n")
